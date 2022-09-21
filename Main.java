@@ -6,7 +6,7 @@ class Main {
     System.out.println("Enter a word:");
     String inputString = myScanner.nextLine();
     //Your code will return the length of the entered String
-
+    myScanner.close();
     System.out.println(inputString.length());
   }
 }
